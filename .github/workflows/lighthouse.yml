@@ -23,7 +23,7 @@ jobs:
           npm install -g @lhci/cli
           npm install
       - name: build
-        run: npm run build:ejs
+        run: npm run gulp devEjs
       - name: lhci
         run: lhci autorun --config=./lighthouse/lighthouserc.json
         env:
