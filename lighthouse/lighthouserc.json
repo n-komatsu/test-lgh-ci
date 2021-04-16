@@ -2,10 +2,7 @@
   "ci": {
     "collect": {
       "numberOfRuns": 3,
-      "startServerCommand": "npm run dev:server",
-      "url": [
-        "http://localhost"
-      ]
+      "staticDistDir": "./_public"
     },
     "assert": {
       "preset": "lighthouse:recommended",
