@@ -4,7 +4,7 @@
       "numberOfRuns": 3,
       "startServerCommand": "npm start",
       "url": [
-        "http://localhost:3000/"
+        "http://localhost"
       ]
     },
     "assert": {
