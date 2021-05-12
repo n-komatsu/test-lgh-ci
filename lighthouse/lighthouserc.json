@@ -5,14 +5,13 @@
       "staticDistDir": "./_public/"
     },
     "assert": {
-      "preset": "lighthouse:recommended",
+      "preset": "lighthouse:no-pwa",
       "assertions": {
         "categories:performance": ["error", {"minScore": 0.7}],
         "categories:seo": ["error", {"minScore": 1}],
         "categories:accessibility": ["error", {"minScore": 0.7}],
         "offscreen-images": "off",
-        "uses-webp-images": "off",
-        "categories:pwa": "off"
+        "uses-webp-images": "off"
       }
     },
     "upload": {
