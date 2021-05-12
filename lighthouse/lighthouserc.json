@@ -12,7 +12,7 @@
         "categories:accessibility": ["error", {"minScore": 0.7}],
         "offscreen-images": "off",
         "uses-webp-images": "off",
-        "categories:pwa": ["off"]
+        "categories:pwa": "off"
       }
     },
     "upload": {
