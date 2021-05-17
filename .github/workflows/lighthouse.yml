@@ -25,6 +25,6 @@ jobs:
       - name: build
         run: gulp devEjs
       - name: lhci
-        run: lhci autorun
+        run: lhci autorun --config=./lighthouse/lighthouserc.json
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
